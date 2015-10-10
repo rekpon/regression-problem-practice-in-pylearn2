@@ -65,6 +65,6 @@ class PlotPredictionOnMonitor(TrainExtension):
                                          repeat_delay=10000)
         if out_filename is not None:
             print("saving animation to", out_filename+".mp4", "...")
-            anim.save(out_filename+".gif", writer="ffmpeg", fps=24)
+            anim.save(out_filename+".mp4", writer="ffmpeg", fps=24)
             print("done.")
         plt.show()
