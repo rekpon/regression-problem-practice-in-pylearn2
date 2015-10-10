@@ -23,7 +23,7 @@ python train.py <options>
 
 * options  
 - -p : 学習経過を動画で表示　　
-- -f \<filename\> : -p の動画を<filename>.mp4に保存(要ffmpeg)　　
+- -f \<filename\> : -p の動画を\<filename\>.mp4に保存(要ffmpeg)　　
 
 ## Note
 * 学習したモデルはfunkmodel.pklに保存される　　
