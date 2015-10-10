@@ -19,7 +19,7 @@ mp4に出力する場合は要ffmpeg
 * ffmpeg (学習経過の動画をmp4で保存するなら)  
 
 ## Usage
-    $ python train.py \<options\>
+    $ python train.py <options>
 
 * options  
 - -p : 学習経過を動画で表示　　
