@@ -99,3 +99,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+funcmodel.pkl
+log.txt
+out.mp4
