@@ -22,11 +22,11 @@ mp4に出力する場合は要ffmpeg
 python train.py <options>  
 
 * options  
--- -p : 学習経過を動画で表示　　
--- -f <filename> : -p の動画を<filename>.mp4に保存(要ffmpeg)　　
+- -p : 学習経過を動画で表示　　
+- -f <filename> : -p の動画を<filename>.mp4に保存(要ffmpeg)　　
 
 ## Note
-* 学習したモデルはfunkmodel.pklに保存されます　　
+* 学習したモデルはfunkmodel.pklに保存される　　
 
 ## License
 Copyright &copy; 2015 rekpon
