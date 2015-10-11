@@ -67,7 +67,7 @@ def main():
     # make Detaset
     ds = sinDataset(SIZE_DATA)
 
-    # definition layers
+    # make layers
     hidden_layer1 = mlp.Tanh(layer_name='hidden1', dim=20, irange=0.5, init_bias=1.0)
     hidden_layer2 = mlp.Tanh(layer_name='hidden2', dim=4, irange=0.5, init_bias=1.0)
     output_layer = mlp.Linear(layer_name='out', dim=1, irange=0.5, init_bias=1)
